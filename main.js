@@ -1,11 +1,14 @@
 /*==================== Typed Animation ====================*/
 let typed = new Typed(".typing", {
   strings: [
-    "Web Designer",
     "Front-End Developer",
-    "PSD To HTML",
-    "Figma To HTML",
-    "Responsive Web Design",
+    "JavaScript Developer",
+    "ReactJs Developer",
+    "NextJs Developer",
+    "Responsive Designer",
+    "Web Designer",
+    "PSD To HTM Designer",
+    "Figma To HTML Designer",
   ],
   typedSpeed: 100,
   BackSpeed: 60,
@@ -25,7 +28,6 @@ for (let i = 0; i < totalNavList; i++) {
     for (j = 0; j < totalNavList; j++) {
       if (navList[j].querySelector("a").classList.contains("active")) {
         addBackSection(j);
-        // allSection[j].classList.add("back-section");
       }
       navList[j].querySelector("a").classList.remove("active");
     }
